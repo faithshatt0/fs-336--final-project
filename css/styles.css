@@ -82,6 +82,14 @@ td {
     border-color: #d185d1;
 }
 
+#addLink {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #d185d1;
+    border-color: #d185d1;
+}
+
 #confirmButton {
     font-size: 32px;
     font-family: 'Montserrat';

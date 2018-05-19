@@ -29,8 +29,8 @@
         <h3>Share a Link...</h3>
         
         <form method="post" action="addExplore.php">
-            <input type="text" name="link" id="editText"></br>
-            <input type="submit" name="addExplore" value="Add link!"/>
+            <input type="text" name="link" id="enterTextP"></br></br>
+            <input type="submit" id="addLink" name="addExplore" value="Add link!"/>
         </form>
         
         <?php
