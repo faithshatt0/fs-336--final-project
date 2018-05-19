@@ -48,7 +48,6 @@
         </form>
         
         <?php
-        
             if(isset($_POST['userColor']) && !empty($_POST['userColor'])) {
                 setUserColor($username,$_POST['userColor']);
             }

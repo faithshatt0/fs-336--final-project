@@ -2,9 +2,12 @@
 
 $(document).ready(function(){
     
-    
     $("#logoutBtn").click( function() {
         window.location.href="logout.php";
+    });
+    
+    $("#addExploreBtn").click( function() {
+        window.location.href="addExplore.php";
     });
     
     var moreExist = true;

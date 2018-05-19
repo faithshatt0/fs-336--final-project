@@ -16,21 +16,19 @@
     <body>
         <h1 id="login">Search blog posts</h1>
         
-        <form method="post" action="search.php"> 
             Subject:
             <select name='bySubject'>
                 <option value='inspiring'>inspiring</option>
                 <option value='story'>story</option>
                 <option value='sliceOfLife'>sliceOfLife</option>
             </select>
-            
+
             User:
             <input type='text' name='byUser' placeholder="Try 'faith'"/>
             
             Title:
             <input type='text' name='byTitle' placeholder="Try 'Leaves'"/>
             <input type='submit' value='Search'/>
-        </form>
         
         <?php
             include 'connect.php';

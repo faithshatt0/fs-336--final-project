@@ -319,6 +319,7 @@ function addLink($link) {
     $db = getDBConnection();
     $sql = "INSERT INTO `links` (`id`, `link`) VALUES (NULL, '$link');";
     
+    echo "here";
     $statement = $db->prepare($sql);
     $statement->execute();
 }

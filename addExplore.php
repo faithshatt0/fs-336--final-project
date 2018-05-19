@@ -25,34 +25,24 @@
 	<a href="javascript:history.go(-1)"><img id='backBtn' width="50px" src="http://pluspng.com/img-png/left-arrow-png-png-small-medium-large-378.png"></a>
 
     <body>
-        <form method="post" action="editProfile.php"> 
         
-        <h3>Select Profile Color</h3>
-            <input type="color" name="userColor" id="userColor"></br>
-            
-        <h3>Change Profile Picture</h3>
-            <input id="enterTextP" type="text" name="profilePicLink" placeholder="Put link to picture here"/>
+        <h3>Share a Link...</h3>
         
-        <h3>Change Current Status</h3>
-            <input id="enterTextP" type="text" name="newStatus" placeholder="New Status"/>
-        
-        <h3>Change Your Interests</h3>
-            <input id="enterTextP" type="text" name="newInterests" placeholder="What are you interested in?"/>
-        
-        <h3>Change Where You're From</h3>
-            <input id="enterTextP" type="text" name="newLocation" placeholder="New Location"/>
-        
-        <h3>Change What's Next</h3>
-            <input id="enterTextP" type="text" name="newWhatsNext" placeholder="What's next?"/><br/>
-            <input id="confirmButton" type="submit" name="submitBtn" value="Update Profile"/><br/>
+        <form method="post" action="addExplore.php">
+            <input type="text" name="link" id="editText"></br>
+            <input type="submit" name="addExplore" value="Add link!"/>
         </form>
         
         <?php
-        
             if(isset($_POST['link']) && !empty($_POST['link'])) {
-                setUserColor($username,$_POST['link']);
+                echo "Hi";
+                addLink($_POST['link']);
+                header("Location: index.php");
             }
         ?>
         
+        <!--Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/stuff.js"></script>
     </body>
 </html>
