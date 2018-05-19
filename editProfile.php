@@ -49,8 +49,6 @@
         
         <?php
         
-        if (isset($_POST['confirmButton'])) {
-        
             if(isset($_POST['userColor']) && !empty($_POST['userColor'])) {
                 setUserColor($username,$_POST['userColor']);
             }
@@ -74,8 +72,6 @@
             if(isset($_POST['newWhatsNext']) && !empty($_POST['newWhatsNext'])) {
                 setWhatsNext($username,$_POST['newWhatsNext']);
             }
-            
-        }
         ?>
         
     </body>
