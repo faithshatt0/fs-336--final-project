@@ -43,6 +43,7 @@ function displayHome(){
     	        <td><div id="explore"><h3>Explore</h3></div><a href=<?php echo $link; ?>><img src="pics/rocket.png" width="300px" ></a></td>
     	    </tr>
 	    </table>
+	    <input type="button" id="addExploreBtn" value="Contribute to Explore links" />
 	</body>
 	<!--Javascript files-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

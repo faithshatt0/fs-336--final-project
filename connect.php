@@ -314,4 +314,12 @@ function getUserByBlogTitle($title) {
     $records = $statement->fetchAll();
     return $records[0]['username'];
 }
+
+function addLink($link) {
+    $db = getDBConnection();
+    $sql = "INSERT INTO `links` (`id`, `link`) VALUES (NULL, '$link');";
+    
+    $statement = $db->prepare($sql);
+    $statement->execute();
+}
 ?>
