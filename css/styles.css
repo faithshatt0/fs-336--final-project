@@ -1,0 +1,164 @@
+h1, body {
+    background-color: #09212e;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    color: #f442f1;
+    font-size: 56px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+}
+
+#welcomePlanet {
+    vertical-align: text-bottom;
+}
+
+#enterText {
+    font-size: 40px;
+    font-family: 'Titillium Web';
+}
+
+#enterTextP {
+    font-size: 40px;
+    font-family: 'Titillium Web';
+    width: 800px
+}
+
+#enterTextBlog {
+    font-size: 24px;
+    font-family: 'Titillium Web';
+    width: 400px;
+    max-height: 400px;
+}
+
+#login {
+    color: #42afac;
+}
+
+#loginButton {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #42afac;
+    border-color: #42afac;
+}
+
+#logoutBtn {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #d185d1;
+    border-color: #d185d1;
+}
+
+#confirmButton {
+    font-size: 32px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #d185d1;
+    border-color: #d185d1;
+}
+
+#newHere, #signUpForm{
+    display: inline-block;
+}
+
+#signUp {
+    font-size: 32px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #d185d1;
+    border-color: #d185d1;
+}
+
+#welcomeUser {
+    font-size: 24px;
+}
+
+#profileName {
+    font-size: 32px;
+}
+
+#editProfileBtn, #editBlogBtn {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #42afac;
+    border-color: #42afac;
+}
+
+#profileTable {
+    padding: 0;
+    margin: 0;
+}
+
+#currentStatus, #location, #interests, #whatsNext {
+    font-family: 'Montserrat';
+    font-family: 24px;
+}
+
+#statusTitle, #locationTitle, #interestsTitle, #whatsNextTitle {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+#rightColumn {
+    text-align: left;
+}
+
+.text-box {
+ border: solid 1px white;
+ min-width:100px;
+ padding: 5px;
+ display: inline-block;
+}
+
+.text-box:focus{
+  outline:0;
+}
+
+#postTitle {
+    font-size: 36px;
+}
+
+.postImage {
+    width: 300px;
+    border: solid 10px white;
+}
+
+#postContent {
+    text-align: left;
+}
+
+#blogTitle {
+    font-size: 36px;
+}
+
+#backBtn {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
